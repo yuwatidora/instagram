@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC7649FD27E2AE970061E740 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7649FC27E2AE970061E740 /* CommentCell.swift */; };
 		ACA6BBE727D2D487004F1242 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA6BBE627D2D487004F1242 /* LoginViewController.swift */; };
 		ACA6BBEA27D2D495004F1242 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA6BBE927D2D495004F1242 /* FeedViewController.swift */; };
 		ACA6BBED27D2DAEB004F1242 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA6BBEC27D2DAEB004F1242 /* CameraViewController.swift */; };
@@ -23,6 +24,7 @@
 		4ED4C73FD51FDFC62216E5DE /* Pods-Yelpy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelpy.debug.xcconfig"; path = "Target Support Files/Pods-Yelpy/Pods-Yelpy.debug.xcconfig"; sourceTree = "<group>"; };
 		4F45387EF0BCD4FD0EAD369F /* Pods_Yelpy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yelpy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F962A73D0A55B6E930DC45 /* Pods-Yelpy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelpy.release.xcconfig"; path = "Target Support Files/Pods-Yelpy/Pods-Yelpy.release.xcconfig"; sourceTree = "<group>"; };
+		AC7649FC27E2AE970061E740 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		ACA6BBE627D2D487004F1242 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ACA6BBE927D2D495004F1242 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		ACA6BBEC27D2DAEB004F1242 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				BBEBF119247738A50044AFE0 /* Info.plist */,
 				ACA6BBEC27D2DAEB004F1242 /* CameraViewController.swift */,
 				ACA6BBEF27D2E527004F1242 /* PostCell.swift */,
+				AC7649FC27E2AE970061E740 /* CommentCell.swift */,
 			);
 			path = Yelpy;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				ACA6BBEA27D2D495004F1242 /* FeedViewController.swift in Sources */,
 				BBEBF10E247738A50044AFE0 /* SceneDelegate.swift in Sources */,
 				ACA6BBF027D2E527004F1242 /* PostCell.swift in Sources */,
+				AC7649FD27E2AE970061E740 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -4,6 +4,9 @@ PODS:
     - Alamofire (~> 5.1)
   - Bolts/Tasks (1.9.1)
   - lottie-ios (3.1.8)
+  - MessageInputBar (0.4.1):
+    - MessageInputBar/Core (= 0.4.1)
+  - MessageInputBar/Core (0.4.1)
   - Parse (1.19.0):
     - Parse/Core (= 1.19.0)
   - Parse/Core (1.19.0):
@@ -14,6 +17,7 @@ DEPENDENCIES:
   - Alamofire
   - AlamofireImage
   - lottie-ios
+  - MessageInputBar
   - Parse
   - SkeletonView
 
@@ -23,6 +27,7 @@ SPEC REPOS:
     - AlamofireImage
     - Bolts
     - lottie-ios
+    - MessageInputBar
     - Parse
     - SkeletonView
 
@@ -31,9 +36,10 @@ SPEC CHECKSUMS:
   AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
   Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
   lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  MessageInputBar: e81c7535347f1f7b923de7080409a535a004b6e4
   Parse: 0fb5c7cc7ee5900f2434e24607d0496155b8d04f
   SkeletonView: f72ac4df69730e48324efae062ba580c2fce974d
 
-PODFILE CHECKSUM: 5f8dd30489c67bb2ae74e7eaa1c27690328d8365
+PODFILE CHECKSUM: 5dc7f8f4d8a66c6e228fc01fabb1d3872512094a
 
-COCOAPODS: 1.10.0.rc.1
+COCOAPODS: 1.11.2
